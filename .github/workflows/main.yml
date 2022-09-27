@@ -11,6 +11,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: ftp.samkirkland.com
+        server: sl101.web.hostpoint.ch
         username: therese@dvw.one
         password: ${{ secrets.ftp_password }}
